@@ -1,0 +1,81 @@
+header {
+  width: 100%;
+  height: 8.333vh;
+  font-size: 0.9em;
+  box-shadow: 0 0.5px 0 0 rgba(0, 0, 0, 0.12);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__nav .logo {
+  height: 30%;
+  align-items: center;
+}
+
+.header__nav .logo object {
+  height: 100%;
+}
+
+.header__nav nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+}
+
+.header__nav nav span {
+  margin-right: 1.5vw;
+}
+
+.header__nav nav span:last-child {
+  margin-right: 0;
+}
+
+.header__nav nav a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9em;
+  color: rgba(0, 11, 38, 0.64);
+}
+
+.header__nav nav a:hover {
+  font-weight: 500;
+  color: rgba(0, 11, 38, 1);
+}
+
+.header__inf__area {
+  display: flex;
+  align-items: center;
+}
+
+.header__information {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+.header__information:first-child {
+  margin-right: 4vw;
+}
+
+.header__information:last-child {
+  margin-right: 0;
+}
+
+.header__information object {
+  margin-right: 0.666vw;
+}
