@@ -21,7 +21,7 @@ const Main = () => {
             <div className="main__inner">
                 <Swiper modules={[Navigation]} navigation loop={true}>
                     <SwiperSlide><Banner
-                        backgraund={"rgba(179, 237, 200, 1)"}
+                        background={"rgba(179, 237, 200, 1)"}
                         title={"Сделаем мир чище"}
                         subtitle={"Сдай макулатуру или старую одежду и получи скидку на покупку товаров из переработанных материалов"}
                         btn={"Условия сервиса"}
@@ -29,7 +29,7 @@ const Main = () => {
                     /></SwiperSlide>
 
                     <SwiperSlide><Banner
-                        backgraund={"rgba(255, 228, 143, 1)"}
+                        background={"rgba(255, 228, 143, 1)"}
                         title={"А вы знали..."}
                         subtitle={"что среднее время разложения пластмассовых изделий колеблется от 400 до 700 лет, а полиэтиленовых пакетов — от 100 до 200 лет?"}
                         btn={"Узнать больше"}
@@ -37,7 +37,7 @@ const Main = () => {
                     /></SwiperSlide>
 
                     <SwiperSlide><Banner
-                        backgraund={"rgba(191, 240, 222, 1)"}
+                        background={"rgba(191, 240, 222, 1)"}
                         title={"Что с масками?"}
                         subtitle={"Медицинские маски не обязательно должны становиться отходами. Их тоже можно сдать на переработку."}
                         btn={"Пункты сбора масок"}

@@ -9,11 +9,11 @@ const Footer = () => {
             <div className={styles.footer__inner}>
                 <div className={styles.footer__items}>
                     <div className={styles.footer__item}>
-                        <object type="image/svg+xml" data={mail}></object>
+                        <img src={mail} align={"mail"}/>
                         <span>info@ecorus.ru</span>
                     </div>
                     <div className={styles.footer__item}>
-                        <object type="image/svg+xml" data={phone}></object>
+                        <img src={phone} align={"phone"}/>
                         <span>+7 (800) 880-88-88</span>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ const Block = (props) => {
                 <h2 className={styles.block__title}>{props.title}</h2>
                 <h3 className={styles.block__subtitle}>{props.subtitle}</h3>
                 <button className={styles.block__btn}>
-                    <object type="image/svg+xml" data={arrow}></object>
+                    <img src={arrow} align={"arrow"}/>
                 </button>
             </div>
             <div className={styles.block__img}>

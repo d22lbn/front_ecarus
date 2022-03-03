@@ -12,7 +12,7 @@ const HeaderAuthorized = (props) => {
             <div className={styles.header__inner}>
                 <div className={styles.header__nav}>
                     <div className={styles.logo}>
-                        <object type="image/svg+xml" data={logo}></object>
+                        <img src={logo} align={"logo"}/>
                     </div>
                     <nav>
                         <span> <a href="#">Главная</a> </span>
@@ -24,15 +24,15 @@ const HeaderAuthorized = (props) => {
 
                 <div className={styles.header__inf__area}>
                     <div className={styles.header__information}>
-                        <object type="image/svg+xml" data={location}></object>
+                        <img src={location} align={"location"}/>
                         <span>Казань</span>
                     </div>
                     <div className={styles.header__information} style={{"display": (props.auth ? "flex" : "none")}}>
-                        <object type="image/svg+xml" data={coin}></object>
+                        <img src={coin} align={"coin"}/>
                         <span>1000</span>
                     </div>
                     <div className={styles.header__information}>
-                        <object type="image/svg+xml" data={props.auth ? ava : login}></object>
+                        <img src={props.auth ? ava : login} align={props.auth ? "ava" : "login"}/>
                         <span>{props.auth ? "Алексей" : "Войти"}</span>
                     </div>
                 </div>
