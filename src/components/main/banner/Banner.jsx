@@ -1,5 +1,5 @@
 import React from "react";
-import '../Main.style.scss'
+import '../Main.scss'
 import styles from './Banner.module.scss'
 
 const Banner = (props) => {

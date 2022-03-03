@@ -1,5 +1,5 @@
 import React from "react";
-import './Main.style.scss'
+import './Main.scss'
 import Banner from "./banner/Banner";
 import Block from "./block/Block";
 import bannerImg1 from '../data/banner1.png'
