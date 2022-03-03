@@ -15,10 +15,10 @@ const HeaderAuthorized = (props) => {
                         <img src={logo} align={"logo"}/>
                     </div>
                     <nav>
-                        <span> <a href="#">Главная</a> </span>
-                        <span> <a href="#">Пункты сбора</a> </span>
-                        <span> <a href="#">ЭкоМаркет</a> </span>
-                        <span> <a href="#">О сервисе</a> </span>
+                        <span> <a href="/main">Главная</a> </span>
+                        <span> <a href="/collection-points">Пункты сбора</a> </span>
+                        <span> <a href="/eco-market">ЭкоМаркет</a> </span>
+                        <span> <a href="/service">О сервисе</a> </span>
                     </nav>
                 </div>
 

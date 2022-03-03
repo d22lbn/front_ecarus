@@ -45,6 +45,11 @@
   font-family: 'Inter', sans-serif;
   margin-top: 5%;
   cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.banner__btn:hover {
+  transform: scale(1.04);
 }
 
 .banner__img {

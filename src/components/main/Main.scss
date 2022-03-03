@@ -41,6 +41,7 @@ main {
   justify-content: center;
   color: rgba(0, 0, 0, 0) !important;
   box-shadow: 0 4px 24px rgba(0, 11, 38, 0.12) !important;
+  transition: all 0.1s ease;
 }
 
 .swiper-button-prev {
@@ -53,11 +54,14 @@ main {
   transform: translate(calc(50% - 2vw), -50%) !important;
   background-image: url("../data/bannerBtnRight.svg");
 }
-.swiper-button-prev::after, .swiper-button-next::after {
-  display: none;
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  //background-size: 60.7893%;
+  width: 42px !important;
+  height: 42px !important;
 }
 
-.swiper-button-next::after {
+.swiper-button-prev::after, .swiper-button-next::after {
   display: none;
 }
 
