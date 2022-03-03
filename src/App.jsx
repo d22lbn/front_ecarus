@@ -1,13 +1,14 @@
 import React from "react";
 
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import HeaderAuthorized from "./components/header/HeaderAuthorized";
+import Main from "./components/main/Main";
+import Footer from "./components/footer/Footer";
+
 
 function App() {
   return (
       <div>
-          <Header />
+          <HeaderAuthorized auth={true} />
           <Main />
           <Footer />
       </div>

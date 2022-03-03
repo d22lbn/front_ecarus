@@ -1,7 +1,7 @@
 import React from "react";
-import style from './Footer.style.scss'
-import mail from './data/mail.svg'
-import phone from './data/phone.svg'
+import './Footer.module.scss'
+import mail from '../data/mail.svg'
+import phone from '../data/phone.svg'
 
 const Footer = () => {
     return (
