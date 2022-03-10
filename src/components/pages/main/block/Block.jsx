@@ -1,6 +1,6 @@
 import React from "react";
 import '../Main.scss'
-import arrow from '../../data/arrow.svg'
+import arrow from '../../../data/arrow.svg'
 import styles from './Block.module.scss'
 
 const Block = (props) => {

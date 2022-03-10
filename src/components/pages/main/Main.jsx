@@ -2,11 +2,11 @@ import React from "react";
 import './Main.scss'
 import Banner from "./banner/Banner";
 import Block from "./block/Block";
-import bannerImg1 from '../data/banner1.png'
-import bannerImg2 from '../data/banner2.png'
-import bannerImg3 from '../data/banner3.png'
-import mapImg1 from '../data/map.png'
-import mapImg2 from "../data/products.png";
+import bannerImg1 from '../../data/banner1.png'
+import bannerImg2 from '../../data/banner2.png'
+import bannerImg3 from '../../data/banner3.png'
+import mapImg1 from '../../data/map.png'
+import mapImg2 from "../../data/products.png";
 
 import {Navigation} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';

@@ -1,0 +1,25 @@
+input {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 11, 38, 0.16);
+  height: 6.7669vh;
+  margin-bottom: 2.708vh;
+  font-weight: 400;
+  padding: 1vw;
+  font-family: 'Inter', sans-serif;
+}
+
+input[type="tel"]::-webkit-input-placeholder {
+  color: rgba(0, 11, 38, 0.4);
+}
+
+input[type="tel"]::-moz-placeholder {
+  color: rgba(0, 11, 38, 0.4);
+}
+
+input[type="password"]::-webkit-input-placeholder {
+  color: rgba(0, 11, 38, 0.4);
+}
+
+input[type="password"]::-moz-placeholder {
+  color: rgba(0, 11, 38, 0.4);
+}

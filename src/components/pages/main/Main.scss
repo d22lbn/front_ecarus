@@ -45,14 +45,14 @@ main {
 }
 
 .swiper-button-prev {
-  background-image: url("../data/bannerBtnLeft.svg");
+  background-image: url("../../data/bannerBtnLeft.svg");
   left: 0 !important;
   transform: translate(calc(2vw - 50%), -50%) !important;
 }
 .swiper-button-next {
   right: 0 !important;
   transform: translate(calc(50% - 2vw), -50%) !important;
-  background-image: url("../data/bannerBtnRight.svg");
+  background-image: url("../../data/bannerBtnRight.svg");
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
