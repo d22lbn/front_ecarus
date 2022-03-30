@@ -1,0 +1,86 @@
+.promo__card {
+  display: flex;
+  flex-direction: row;
+  height: 134px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.promo__card:last-child {
+  height: 110px;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.promo__card .card__photo {
+  height: 100%;
+  position: relative;
+}
+.promo__card .card__photo img {
+  height: 100%;
+}
+.promo__card .card__photo h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.promo__card .card__photo h3 span {
+  font-weight: 400;
+}
+.promo__card .card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 24px;
+  padding: 7px 0;
+}
+.promo__card .card__info div {
+  display: flex;
+  flex-direction: column;
+}
+.promo__card .card__info .card__info__title {
+  color: rgba(0, 11, 38, 0.4);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+.promo__card .card__info .card__info__date {
+  color: rgba(0, 11, 38, 0.88);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.promo__card .show__qr {
+  padding: 7px 0;
+  position: absolute;
+  right: 0;
+}
+.promo__card .show__qr button {
+  padding: 10px 20px;
+  background: rgba(62, 80, 114, 0.08);
+  border-radius: 8px;
+  color: rgba(0, 11, 38, 0.8);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=PromoCode.module.css.map */

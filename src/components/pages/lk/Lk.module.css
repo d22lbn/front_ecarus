@@ -1,0 +1,58 @@
+.lk {
+  padding: 0 12.5vw;
+}
+.lk h1 {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.lk .lk__inf {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.lk .lk__items {
+  margin-left: 48px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.lk .lk__items .lk__links {
+  padding: 7px 0;
+  box-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.12);
+}
+.lk .lk__items .lk__links a {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000B26;
+  margin-right: 24px;
+}
+.lk .lk__items .lk__links a:last-child {
+  margin-right: 0;
+}
+.lk .lk__items .lk__links .active__link {
+  padding-bottom: 7px;
+  border-bottom: 3px solid #07C88E;
+}
+.lk .lk_promo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: calc(6.666vh + 18px);
+}
+.lk .lk_history {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 6.666vh;
+  display: none;
+}
+
+/*# sourceMappingURL=Lk.module.css.map */

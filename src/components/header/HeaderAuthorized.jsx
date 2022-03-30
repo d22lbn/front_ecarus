@@ -33,7 +33,7 @@ const HeaderAuthorized = (props) => {
                     </div>
                     <div className={styles.header__information}>
                         <img src={props.auth ? ava : login} align={props.auth ? "ava" : "login"}/>
-                        <span>{props.auth ? "Алексей" : "Войти"}</span>
+                        <span><a href="/lk">{props.auth ? "Алексей" : "Войти"}</a></span>
                     </div>
                 </div>
             </div>

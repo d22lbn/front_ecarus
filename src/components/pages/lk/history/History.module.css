@@ -1,0 +1,61 @@
+.history__card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border: 1px solid rgba(62, 80, 114, 0.16);
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 24px;
+  justify-content: space-between;
+  align-items: start;
+}
+.history__card .history__inf {
+  display: flex;
+  flex-direction: column;
+}
+.history__card .history__inf div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.history__card .history__inf div:last-child {
+  margin-bottom: 0;
+}
+.history__card .history__inf .history__inf__title {
+  color: rgba(0, 11, 38, 0.4);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+.history__card .history__inf .history__inf__text {
+  color: rgba(0, 11, 38, 0.88);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.history__card .history__price {
+  display: flex;
+  align-items: center;
+}
+.history__card .history__price img {
+  margin-right: 8px;
+}
+.history__card .history__price span {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+}
+
+/*# sourceMappingURL=History.module.css.map */

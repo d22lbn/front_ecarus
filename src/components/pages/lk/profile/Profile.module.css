@@ -1,0 +1,53 @@
+.profile__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid rgba(62, 80, 114, 0.16);
+  border-radius: 20px;
+  align-items: center;
+  padding: 32px;
+}
+.profile__wrapper img {
+  width: 33%;
+}
+.profile__wrapper h3 {
+  text-align: center;
+  margin-top: 24px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(0, 11, 38, 0.88);
+}
+.profile__wrapper span {
+  color: rgba(0, 11, 38, 0.72);
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.profile__wrapper .phone {
+  margin-top: 16px;
+}
+.profile__wrapper .email {
+  margin-top: 12px;
+}
+.profile__wrapper button {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: rgba(0, 11, 38, 0.8);
+  margin-top: 24px;
+  background: rgba(62, 80, 114, 0.08);
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=Profile.module.css.map */

@@ -1,0 +1,96 @@
+.promo__card {
+  display: flex;
+  flex-direction: row;
+  height: 134px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+
+  &:last-child {
+    height: 110px;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .card__photo {
+    height: 100%;
+    position: relative;
+
+    img {
+      height: 100%;
+    }
+
+    h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Inter', serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      width: 100%;
+      text-align: center;
+      color: #FFFFFF;
+
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 24px;
+    //margin-right: 69px;
+    padding: 7px 0;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card__info__title {
+      color: rgba(0, 11, 38, 0.4);
+      font-family: 'Inter', serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 4px;
+    }
+
+    .card__info__date {
+      color: rgba(0, 11, 38, 0.88);
+      font-family: 'Inter', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .show__qr {
+    padding: 7px 0;
+    position: absolute;
+    right: 0;
+
+    button {
+      padding: 10px 20px;
+      background: rgba(62, 80, 114, 0.08);
+      border-radius: 8px;
+      color: rgba(0, 11, 38, 0.8);
+      font-family: 'Inter', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

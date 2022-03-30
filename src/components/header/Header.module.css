@@ -46,7 +46,7 @@ header {
 
 .header__nav nav a {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.9em;
   color: rgba(0, 11, 38, 0.64);
   transition: all 0.1s ease;
@@ -54,7 +54,7 @@ header {
 
 .header__nav nav a:hover {
   font-weight: 500;
-  color: rgba(0, 11, 38, 1);
+  color: #000b26;
 }
 
 .header__inf__area {
@@ -84,3 +84,5 @@ header {
 .header__information span a {
   color: rgba(0, 11, 38, 0.8);
 }
+
+/*# sourceMappingURL=Header.module.css.map */
